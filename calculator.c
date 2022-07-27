@@ -54,6 +54,12 @@ int main()
      x = num1 / num2;
      printf("\nQuotient = %ld", x);
      break;
-  return 0;
+   case 5:
+      printf("Enter any number: \n");
+      scanf("%ld", &num1);
+      x = num1 * num1;
+      printf("Square = %ld", x);
+      break;
+   return 0;
    }
 }
